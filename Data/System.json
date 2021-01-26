@@ -23,7 +23,8 @@
             {"ID" : "Questors",     "Loaded" : "False", "FileName" : "./Data/ED4/Questors.json"}, 
             {"ID" : "LarsGottlieb", "Loaded" : "False", "FileName" : "./Data/ED4/LarsGottlieb.json"},
             {"ID" : "Sebastian",    "Loaded" : "False", "FileName" : "./Data/ED4/Sebastian.json"},
-            {"ID" : "Panda",        "Loaded" : "False", "FileName" : "./Data/ED4/Panda.json"}
+            {"ID" : "Panda",        "Loaded" : "False", "FileName" : "./Data/ED4/Panda.json"},
+            {"ID" : "BBData",       "Loaded" : "False", "FileName" : "./Data/ED4/BBData.json"}
       ],
 
       "Abbreviations" :
@@ -92,7 +93,8 @@
                         [
                               {"ID" :  "Panda",          "Description" : "Panda's Gaming Grove"},
                               {"ID" :  "Sebastian",      "Description" : "Sebastian's campaigns", "Requires" : "MysticPaths"},
-                              {"ID" :  "LarsGottlieb",   "Description" : "Lars Gottlieb's campaigns"}
+                              {"ID" :  "LarsGottlieb",   "Description" : "Lars Gottlieb's campaigns"},
+                              {"ID" :  "BBData",   "Description" : "Bart Emporyum"}
                         ]
                   }
             },
