@@ -1,0 +1,239 @@
+{
+      "ID" : "BBData",
+      "Books" : "Bart Emporyum",
+      "Description" : "Things for Barts Barsawie",
+      "version" : "1",
+      "by" : "Bart",
+
+      "Races" : 
+      [
+            {"ID" : "Template", "Name" : "Template", "Dex" : "10", "Str" : "10", "Tou" : "10", "Per" : "10", "Wil" : "10", "Cha" : "10", "Move" : "10", "Karma" : "4", "oneHdMin" : "1", "oneHdMax" : "3", "twoHdMin" : "4", "twoHdMax" : "6", "Abilities":"", "BonusTalent" : "", "Modifiers" : "", "Mature" : "", "Lifespan" : "", "Height" : "Over 6'", "Weight" : "150lbs", "Names" : [""]}
+      ],
+
+      "Equipment" :
+      [           
+            {
+                  "ID" : "RockarmBracelet", "Name" : "Rockarm Bracelet", "Reference" : "", "Type" : "Thread Item", "BaseType" : "Shield", "Cost" : "", "Weight" : "0",        
+                  "BaseLPCost" : "200",
+                  "SpellDefense" : "12",
+                  "PhRating" : "0", "MyRating" : "0", "IniPen" : "0", 
+                  "Ranks" : 
+                  [
+                        {
+                              "Rank" : "1",
+                              "Effect" : "The Owner gains the Rock Streangth ability: For 1 strain, gain +3 to any non-combat Streangth test"
+                        },
+                        {
+                              "Rank" : "2",
+                              "Modifiers" : {"PhRating" : "1", "MyRating" : "1"},
+							  "Effect" : "The owner can Activate the Bracers' Rock Arm power at will. When the power is active, the forearm which the bracer is strapped on, hardens - the skin takes on a rocky texture with veins looking like living crystal. The forearm can be used like a crystal buckler (+1 PD/+1 MD). He must be using the forearm actively like a shield, but is immune to Shattering shield and moving inside the shield combat options." 
+						},
+                        {
+                              "Rank" : "3",
+                              "Modifiers" : {"PhRating" : "1", "MyRating" : "1"},
+                              "Effect" : "The Rock Streangth ability now grants a +6 bonus"
+                        },
+                        {
+                              "Rank" : "4",
+                              "Modifiers" : {"PhRating" : "1", "MyRating" : "1"},
+                              "Effect" : "The owner can now use 'Sucker Punch' special manouver: Sucker Punch(Owner, Close Combat): The owner may spend two additional successes on an Attack test and 2 Strain to deliver a forceful punch aimed at a soft spot. Damage is equal to Onwers STR, physical armor protects against this damage. If any damage is dealt the target is Harried until end of the next round."
+                        },
+                        {
+                              "Rank" : "5",
+                              "Modifiers" : {"PhRating" : "1", "MyRating" : "1"},
+                              "Effect" : "The owner gains +2 to their Strength attribute value."
+                        }
+                        
+                  ]
+            },
+			{
+                  "ID" : "RunvirRazor", "Name" : "Runvirs' Razor Claw", "Reference" : "", "Type" : "Thread Item", "BaseType" : "Melee Weapon", "Cost" : "", "Weight" : "0",        
+                  "BaseLPCost" : "200",
+                  "SpellDefense" : "12",
+                  "DmgStep" : "6", 
+                  "StrMin" : "13", 
+                  "DexMin" : "0", 
+                  "Size" : "4", 
+                  "Forgeable" : "Weapon",
+                  "Ranks" : 
+                  [
+                        {
+                              "Rank" : "1",
+                              "Modifiers" : {"DmgStep" : "1"}
+                        },
+                        {
+                              "Rank" : "2",
+                              "Modifiers" : {"DmgStep" : "1", "PhRating" : "1"}
+                        },
+                        {
+                              "Rank" : "3",
+                              "Modifiers" : {"DmgStep" : "2", "PhRating" : "1"}
+                        },
+                        {
+                              "Rank" : "4",
+                              "Modifiers" : {"DmgStep" : "2", "PhRating" : "2"}                              
+                        },
+                        {
+                              "Rank" : "5",
+                              "Modifiers" : {"DmgStep" : "2", "PhRating" : "2"},
+                              "Effect" : "The wielder gains access to Eagle Eye ability. Eagle Eye: summons the Emperor ally spirit to act as a remote spy. This ability functions like the Orbiting Spy talent with rank equal to the spirits SR."
+                        },
+                        {
+                              "Rank" : "6",
+                              "Modifiers" : {"DmgStep" : "3", "PhRating" : "2"}
+                              
+                        },
+						{
+                              "Rank" : "7",
+                              "Modifiers" : {"DmgStep" : "3", "PhRating" : "2"},
+							  "Effect" : "The wielder can now se through the spirits eyes, using its sense of sight - even into the Astral space - use the spirits' Statistics for any tests. The effect lasts one round causes 1 strain."                              
+                        },
+						{
+                              "Rank" : "8",
+                              "Modifiers" : {"DmgStep" : "3", "PhRating" : "2"},
+                              "Effect" : "The wielder can now summon Emperor once a day making a Thread waving test against Emperor's Mystic defense. This test always scores at least one success. Otherwise treat it as a regular Summoning test."
+
+                        }
+						
+                  ]
+            },
+			{
+                  "ID" : "BBShield", "Name" : "Bart Shield", "Reference" : "", "Type" : "Thread Item", "BaseType" : "Shield", "Cost" : "", "Weight" : "0",        
+                  "BaseLPCost" : "200",
+                  "SpellDefense" : "12",
+                  "PhRating" : "1", "MyRating" : "2", "IniPen" : "2", 
+                  "Ranks" : 
+                  [
+                        {
+                              "Rank" : "1",
+                              "Modifiers" : {"PhRating" : "1"}
+                        },
+                        {
+                              "Rank" : "2",
+                              "Modifiers" : {"PhRating" : "1", "MyRating" : "1"}
+                        },
+                        {
+                              "Rank" : "3",
+                              "Modifiers" : {"PhRating" : "1", "MyRating" : "1"},
+                              "Effect" : "The owner gains the Blood Fortify ability, see EN p274"
+                        },
+                        {
+                              "Rank" : "4",
+                              "Modifiers" : {"PhRating" : "2", "MyRating" : "1"},
+                              "Effect" : "The owner gains the Blood Fortify ability, see EN p274"
+                        },
+                        {
+                              "Rank" : "5",
+                              "Modifiers" : {"PhRating" : "2", "MyRating" : "2"},
+                              "Effect" : "The owner gains the Blood Fortify ability, see EN p274"
+                        },
+                        {
+                              "Rank" : "6",
+                              "Modifiers" : {"PhRating" : "2", "MyRating" : "2"},
+                              "Effect" : "The owner gains the Blood Fortify ability, see EN p274; it now provides +2 Physical and Mystic Defense"
+                        }
+                  ]
+            },
+			
+            {
+                  "ID" : "BBSword", "Name" : "Bart Sword", "Reference" : "", "Type" : "Thread Item", "BaseType" : "Melee Weapon", "Cost" : "", "Weight" : "0",        
+                  "BaseLPCost" : "200",
+                  "SpellDefense" : "12",
+                  "DmgStep" : "5", 
+                  "StrMin" : "12", 
+                  "DexMin" : "0", 
+                  "Size" : "3", 
+                  "Forgeable" : "Weapon",
+                  "Ranks" : 
+                  [
+                        {
+                              "Rank" : "1",
+                              "Modifiers" : {"DmgStep" : "2"}
+                        },
+                        {
+                              "Rank" : "2",
+                              "Modifiers" : {"DmgStep" : "2", "Ini" : "1"}
+                        },
+                        {
+                              "Rank" : "3",
+                              "Modifiers" : {"DmgStep" : "3", "Ini" : "1"}
+                        },
+                        {
+                              "Rank" : "4",
+                              "Modifiers" : {"DmgStep" : "3", "Ini" : "1"},
+                              "Effect" : "The owner gains +1 to Attack tests with the sword."
+                        },
+                        {
+                              "Rank" : "5",
+                              "Modifiers" : {"DmgStep" : "2", "Ini" : "1"},
+                              "Effect" : "The owner gains +1 to Attack tests with the sword, and the Woodland Sentinel ability; see EN p275."
+                        },
+                        {
+                              "Rank" : "6",
+                              "Modifiers" : {"DmgStep" : "4", "Ini" : "1"},
+                              "Effect" : "The owner gains +1 to Attack tests with the sword, and the Woodland Sentinel ability; see EN p275."
+                        }
+                  ]
+            },
+                      
+            {
+                  "ID" : "BBArmor", "Name" : "Bart Armor", "Reference" : "", "Type" : "Thread Item", "BaseType" : "Armor", "Cost" : "", "Weight" : "0",        
+                  "BaseLPCost" : "300",
+                  "SpellDefense" : "13",
+                  "PhArm" : "6", "MyArm" : "1", "IniPen" : "2", 
+                  "Forgeable" : "Armor",
+                  "Ranks" : 
+                  [
+                        {
+                              "Rank" : "1",
+                              "Modifiers" : {"MyArm" : "1"}
+                        },
+                        {
+                              "Rank" : "2",
+                              "Modifiers" : {"MyArm" : "1", "PhArm" : "1"}
+                        },
+                        {
+                              "Rank" : "3",
+                              "Modifiers" : {"MyArm" : "1", "PhArm" : "1"},
+                              "Effect" : "The owner gains the Crimson Resistance ability; see EN p276."
+                        },
+                        {
+                              "Rank" : "4",
+                              "Modifiers" : {"MyArm" : "1", "PhArm" : "1", "Talents" : [{"ID" : "ED4WoodSkin", "Modifier" : "1"}]},
+                              "Effect" : "The owner gains the Crimson Resistance ability; see EN p276."
+                        },
+                        {
+                              "Rank" : "5",
+                              "Modifiers" : {"MyArm" : "2", "PhArm" : "1", "Talents" : [{"ID" : "ED4WoodSkin", "Modifier" : "1"}]},
+                              "Effect" : "The owner gains the Crimson Resistance ability; see EN p276."
+                        },
+                        {
+                              "Rank" : "6",
+                              "Modifiers" : {"MyArm" : "2", "PhArm" : "1", "Talents" : [{"ID" : "ED4WoodSkin", "Modifier" : "1"}, {"ID" : "ED4Fireblood", "Modifier" : "1"}]},
+                              "Effect" : "The owner gains the Crimson Resistance ability; see EN p276."
+                        },
+                        {
+                              "Rank" : "7",
+                              "Modifiers" : {"MyArm" : "2", "PhArm" : "2", "Talents" : [{"ID" : "ED4WoodSkin", "Modifier" : "2"}, {"ID" : "ED4Fireblood", "Modifier" : "1"}]},
+                              "Effect" : "The owner gains the Crimson Resistance ability; see EN p276."
+                        },
+                        {
+                              "Rank" : "8",
+                              "Modifiers" : {"MyArm" : "3", "PhArm" : "2", "Talents" : [{"ID" : "ED4WoodSkin", "Modifier" : "2"}, {"ID" : "ED4Fireblood", "Modifier" : "2"}]},
+                              "Effect" : "The owner gains the Crimson Resistance ability; see EN p276."
+                        }
+                  ]
+            }
+                  
+      ]
+}
+
+
+
+
+
+
+
+
+
+

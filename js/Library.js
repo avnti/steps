@@ -80,7 +80,7 @@ let Library = new function()
         if (books.includes("Official"))
             books += " Core MysticPaths ElvenNations Travar Iopos Questors"; // Add book files as they're added.
         if (books.includes("Unofficial"))
-            books += " LarsGottlieb, Sebastian, Panda"; // Add book files as they're added.
+            books += " LarsGottlieb, Sebastian, Panda, BBData"; // Add book files as they're added.
         if (!books.includes("Core") && books.toLowerCase() != "all")
             books += " Core";
 
